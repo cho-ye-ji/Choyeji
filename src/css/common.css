@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+header {
+  font-size: 12px;
+}
+header h1 {
+  font-size: 13px;
+}
+header h1::after {
+  content: "";
+}
+header ul {
+  list-style: circle;
+}/*# sourceMappingURL=common.css.map */
